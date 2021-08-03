@@ -13,8 +13,7 @@
 
 
 
-  var btnevnt = document.getElementById("submit");
-  btnevnt.addEventListener("click",  sendTrack);
+  
   function sendTrack(){
 	  var uid = document.getElementById("UID").value;
 	  var gameid = document.getElementById("GID").value;
@@ -51,7 +50,7 @@
   <input type="text" id="GN" name="GameName"><br><br>
 	<label>bet amount: </label>
   <input type="text" id="AMNT" name="Amount"><br><br>
-  <input type="submit" value="Submit" id="submit">
+  <input type="submit" value="Submit" id="submit" onclick="sendTrack()">
 </form>
 
 </body>
