@@ -16,23 +16,23 @@
   var btnevnt = document.getElementById("submit");
   btnevnt.addEventListener("click",  sendTrack);
   function sendTrack(){
-    var uid = document.getElementById("UID").value;
-    var gameid = document.getElementById("GID").value;
-    var gameName = document.getElementById("GN").value;
-    var amnt = document.getElementById("AMNT").value;
-    analytics.track("Bet Placed", {
-      game_id: gameid,
-      game_name: gameName,
-      bet_amount: amnt
-    });
+	  var uid = document.getElementById("UID").value;
+	  var gameid = document.getElementById("GID").value;
+	  var gameName = document.getElementById("GN").value;
+	  var amnt = document.getElementById("AMNT").value;
+	  analytics.track("Bet Placed", {
+		  game_id: gameid,
+		  game_name: gameName,
+		  bet_amount: amnt
+	  });
   }  
 </script>
 
 </head>
 
 <body>
-    <p> this page contains the analytics.js 2.x snippet</p>
-    <a href="https://app.segment.com/segment-joe.ayoub/sources/analyticsjs2_0/debugger">Source page</a>
+	<H1>Test API page</H1>
+    
 
 <form>
   <label>User ID: </label>
