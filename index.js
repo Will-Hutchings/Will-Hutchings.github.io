@@ -32,7 +32,7 @@
   }
 function sendLinkclick(){
 	var link = document.getElementById("segment_link");
-	analytics.trackLink(link,'Clicked Segment link', {
+	analytics.track("Clicked Segment link", {
 		
 	});
 }
