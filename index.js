@@ -30,3 +30,13 @@
 		  bet_amount: amnt
 	  });
   }  
+function sendLinkclick(){
+	var link = document.getElementById("segment_link");
+	analytics.trackLink(link,'Clicked Segment link', {
+		
+	});
+}
+
+
+
+
