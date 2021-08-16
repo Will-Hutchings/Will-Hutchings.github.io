@@ -5,9 +5,7 @@
   
   }}();
 
-  function clearCookie(){
-	analytics.reset();  
-  }
+ 
   
   function sendTrack(){
 	  var uid = document.getElementById("UID").value;
@@ -25,6 +23,7 @@
 		  game_name: gameName,
 		  bet_amount: amnt
 	  });
+	  analytics.reset();
 	  setTimeout('SubmitF("testForm")',5000);
   }
 
