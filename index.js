@@ -13,9 +13,9 @@
 	  var amnt = document.getElementById("AMNT").value;
 	  if( uid != ""){
 		  analytics.identify(uid,{
-	  });}else{
-		 analytics.identify();	  
-		  }
+	  });}
+	  analytics.identify();	  
+		  
 	  analytics.track("Bet Placed", {
 		  game_id: gameid,
 		  game_name: gameName,
