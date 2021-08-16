@@ -2,11 +2,12 @@
   analytics.load("yAalLg2aJXJrvLzNyAvV1mFL79n6OfaP");
   
   var uid = document.getElementById("UID").value;
-  analytics.reset() 
+  
   }}();
 
-
-
+  function ClearCookie(){
+	analytics.reset();  
+  }
   
   function sendTrack(){
 	  var uid = document.getElementById("UID").value;
