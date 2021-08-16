@@ -2,12 +2,7 @@
   analytics.load("yAalLg2aJXJrvLzNyAvV1mFL79n6OfaP");
   
   var uid = document.getElementById("UID").value;
-  analytics.identify(uid,{
-		  "email": "will@example.com",
-		  "name": "Will",
-		  "industry": "Technology", 
-		  "hobby": "Gaming"
-	  });
+ 
   }}();
 
 
