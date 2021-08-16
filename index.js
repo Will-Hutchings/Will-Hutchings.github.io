@@ -13,10 +13,6 @@
 	  var gameName = document.getElementById("GN").value;
 	  var amnt = document.getElementById("AMNT").value;
 	  analytics.identify(uid,{
-		  "email": "will@example.com",
-		  "name": "Will",
-		  "industry": "Technology", 
-		  "hobby": "Gaming"
 	  });
 	  analytics.track("Bet Placed", {
 		  game_id: gameid,
