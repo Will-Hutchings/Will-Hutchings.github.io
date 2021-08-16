@@ -24,7 +24,13 @@
 		  game_name: gameName,
 		  bet_amount: amnt
 	  });
+	  setTimeout('SubmitF("testForm")',5000)
   }
+
+function SubmitF(){
+	document.getElementById("testForm").submit();
+}
+
 function sendLinkclick(){
 	var link = document.getElementById("segment_link");
 	analytics.track("Clicked Segment link", {
