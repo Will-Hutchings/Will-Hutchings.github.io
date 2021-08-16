@@ -24,7 +24,7 @@
 		  game_name: gameName,
 		  bet_amount: amnt
 	  });
-	  setTimeout('SubmitF("testForm")',5000)
+	  setTimeout('SubmitF("testForm")',5000);
   }
 
 function SubmitF(){
