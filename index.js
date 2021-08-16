@@ -21,6 +21,7 @@
 		  game_name: gameName,
 		  bet_amount: amnt
 	  });
+	  analytics.reset();
 	  
 	  setTimeout('SubmitF("testForm")',5000);
   }
