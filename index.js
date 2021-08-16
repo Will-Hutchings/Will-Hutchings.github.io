@@ -11,8 +11,9 @@
 	  var gameid = document.getElementById("GID").value;
 	  var gameName = document.getElementById("GN").value;
 	  var amnt = document.getElementById("AMNT").value;
-	  analytics.identify(uid,{
-	  });
+	  if( uid != ""){
+		  analytics.identify(uid,{
+	  });}
 	  analytics.track("Bet Placed", {
 		  game_id: gameid,
 		  game_name: gameName,
