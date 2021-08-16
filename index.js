@@ -5,7 +5,7 @@
   
   }}();
 
-  function ClearCookie(){
+  function clearCookie(){
 	analytics.reset();  
   }
   
