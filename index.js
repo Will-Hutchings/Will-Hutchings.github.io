@@ -19,6 +19,10 @@
 	  analytics.track("Bet Placed", {
 		  game_id: gameid,
 		  game_name: gameName,
+		  if(amnt = ""){
+			  bet_amount: null
+			  
+		  }
 		  bet_amount: amnt
 	  });
 	  analytics.reset();
