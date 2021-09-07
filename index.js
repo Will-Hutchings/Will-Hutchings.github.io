@@ -4,13 +4,13 @@
   
   }}();
 
- var uid = document.getElementById("UID").value;
+ 	  
+  
+  function sendTrack(){
+	  var uid = document.getElementById("UID").value;
 	  var gameid = document.getElementById("GID").value;
 	  var gameName = document.getElementById("GN").value;
 	  var amnt = document.getElementById("AMNT").value;
-  
-  function sendTrack(){
-	  
 	  if( uid != ""){
 		  analytics.identify(uid,{
 	  });}
